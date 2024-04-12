@@ -1,0 +1,217 @@
+.container{
+    margin-top: 3rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.facebook{
+    color: blue;
+    font-size: 3.5rem;
+    font-family: "PT Sans Caption", sans-serif;
+  
+}
+.warning{
+    width: 35rem;
+    height: 2rem;
+    border: blue .1rem solid;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+.icon{
+    background-color: blue;
+    height: 2rem;
+    width: 3rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+.words{
+    padding-left: 1rem;
+}
+div,p{
+    padding: 0;
+    margin: 0;
+}
+.input-container{
+    margin-top: .5rem;
+    width: 25rem;
+    height: 26rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   .log{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+   }
+   .warning2{
+    width: 20.2rem;
+    height: 2rem;
+    border: darkgoldenrod .1rem solid;
+    background-color: #FFDAB9;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+.err-mesg{
+    width: 20.2rem;
+    height: 3rem;
+    border: darkgoldenrod .1rem solid;
+    background-color: #FFDAB9;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;  
+}
+.wrong-credentials{
+    font-weight: bold;
+}
+.myInput{
+    width: 20rem;
+    height: 3rem; 
+    margin-top: 1rem;
+    border-radius: .5rem;
+    border: #E6E6FA .1rem solid;
+    background-color: transparent;
+    outline: none;
+    font-size: 1rem;
+    
+}
+.typeEvent{
+    width: 20rem;
+    height: 3rem; 
+    margin-top: 1rem;
+    border-radius: .5rem;
+    border: #E6E6FA .1rem solid;
+    background-color: transparent;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    
+}
+.password{
+    width: 15rem;
+    height: 3rem;
+    outline: none ;
+    border: none;
+    background-color: transparent;
+}
+.eye-btn{
+    margin-left: auto;
+    margin-right: .5rem;
+    border: none;
+    background-color: transparent;
+}
+.btn-log{
+    width: 20rem;
+    height: 3rem; 
+    margin-top: 1rem;
+    border-radius: .5rem;
+    border: none;
+    background-color: blue;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row; 
+    cursor: pointer;
+}
+.logIn{
+  font-size: 1.2rem;
+  color: white;
+  cursor: pointer;
+}
+.f-password{
+    color: blue;
+    cursor: pointer;
+}
+.div-line{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;  
+}
+.left-side{
+    width: 10rem;
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px dotted #eee;
+    border-bottom: 1px solid #ccc;
+    margin-right: 1rem;
+}
+.right-side{
+    width: 10rem;
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px dotted #eee;
+    border-bottom: 1px solid #ccc;
+    margin-left: 1rem;
+}
+.c-new-acct{
+    width: 15rem;
+    height: 3rem; 
+    margin-top: 1rem;   
+    border-radius: .5rem;
+    border: none;
+    background-color: green;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row; 
+}
+.new-acct{
+    font-size: 1.2rem;
+    color: white;
+    cursor: pointer;    
+}
+   .facebook{
+    margin-top: 2rem;
+   }
+   .facebook-img{
+    height: 35rem;
+   }
+
+
+@media only screen and (max-width:500px) {
+    .facebook{
+        color: blue;
+        font-size: 2.5rem;
+        font-family: "PT Sans Caption", sans-serif;
+        
+    } 
+    .warning{
+        width: 22rem;
+        height: 2rem;
+        border: blue .1rem solid;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+    }
+    .input-container{
+        margin-top: .5rem;
+        width: 25rem;
+        height: 100vh;
+        border-radius: 0.5rem;
+       
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       }
+       .facebook{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+       }
+       .facebook-img{
+        margin-top: 15rem;
+        height: 15rem;
+       }
+}
